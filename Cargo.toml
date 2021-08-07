@@ -1,0 +1,12 @@
+[package]
+name = "dalek-c"
+version = "0.1.0"
+authors = ["Joey Yandle <dragon@dancingdragon.net>"]
+edition = "2018"
+
+[lib]
+name = "dalek_c"
+path = "src/lib.rs"
+
+[dependencies]
+curve25519-dalek = { version = "3" }
